@@ -1,0 +1,77 @@
+*{
+    font-family: arial;
+}
+.header{
+    display: flex;
+    height: 15vh;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.logo__image{
+    background-color: #272727;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+.navigation-bar ul{
+    display: flex;
+    gap: 3rem;
+}
+.navigation-bar li{
+    list-style: none;
+}
+.navigation-bar a{
+    text-decoration: none;
+    color: #272727;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-color: #F9F9F9;
+}
+.banner__content{
+    display: flex;
+    align-items: center;
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+    gap: 1rem;
+}
+.banner__informations h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #272727;
+}
+.banner__informations p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #797979;
+}
+.banner__buttons{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.entre_contato{
+    background-color: #272727;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 32px 12px 32px;
+}
+.saiba_mais{
+    text-decoration: underline;
+}
+
+.banner__image{
+    width: 40%;
+}
