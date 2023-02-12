@@ -198,3 +198,34 @@
   font-size: 1.12rem;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 970px) {
+  .banner__image{
+    display: none;
+  }
+  .design-minimalista__image{
+    display: none;
+  }
+  .design-minimalista__informations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .galeria__images-container{
+    flex-direction: column;
+  }
+  .galeria__images{
+    width: 75vw;
+    margin-bottom: 2rem;
+  }
+  .orcamento__btn{
+    width: 70vw;
+  }
+  .logo__image{
+    display: none;
+  }
+  .footer{
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+}
