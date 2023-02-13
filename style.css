@@ -1,11 +1,14 @@
 * {
   font-family: arial;
 }
+body{
+  margin: 0;
+}
 .header {
   display: flex;
   height: 15vh;
-  margin-left: 6.25rem;
-  margin-right: 6.25rem;
+  margin-left: 5%;
+  margin-right: 5%;
   align-items: center;
   justify-content: space-between;
 }
@@ -38,13 +41,13 @@
   display: flex;
   justify-content: center;
   background-color: #f9f9f9;
-  height: 70vh;
+  min-height: 70vh;
 }
 .banner__content {
   display: flex;
   align-items: center;
-  margin-left: 6.25rem;
-  margin-right: 6.25rem;
+  margin-left: 5%;
+  margin-right: 5%;
   gap: 4.5rem;
 }
 .banner__informations h1 {
@@ -80,12 +83,13 @@
 }
 
 .design-minimalista {
-  padding-left: 6.25rem;
-  padding-right: 6.25rem;
+  
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 3rem;
   padding-bottom: 3rem;
   display: flex;
-  height: 50vh;
+  min-height: 50vh;
 }
 .design-minimalista__content {
   display: flex;
@@ -120,8 +124,8 @@
   background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
-  padding-left: 6.25rem;
-  padding-right: 6.25rem;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 3rem;
   padding-bottom: 3rem;
   gap: 2rem;
@@ -152,8 +156,8 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-left: 6.25rem;
-  padding-right: 6.25rem;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -175,8 +179,8 @@
     padding: 0.75rem 2rem;
 }
 .footer{
-    padding-left: 6.25rem;
-    padding-right: 6.25rem;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     display: flex;
@@ -208,14 +212,16 @@
   }
   .design-minimalista__informations{
     display: flex;
+    width: 85vw;
     flex-direction: column;
     align-items: center;
   }
   .galeria__images-container{
     flex-direction: column;
+    align-items: center;
   }
   .galeria__images{
-    width: 75vw;
+    width: 80%;
     margin-bottom: 2rem;
   }
   .orcamento__btn{
